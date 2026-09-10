@@ -1,0 +1,14 @@
+pillow
+opencv-python
+
+pandas
+numpy
+matplotlib
+scikit-learn
+
+ipykernel
+nbconvert
+
+fastapi
+uvicorn[standard]
+pydantic
