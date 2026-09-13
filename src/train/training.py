@@ -14,7 +14,9 @@ def train_batch(
 
     model.train()
 
-    with torch.amp.autocast('cuda'):
+    optimizer.zero_grad(set_to_none=True)
+
+    with torch.amp.autocast(device_type=images.device.type):
         outputs = model(images)
         loss = criterion(outputs, masks)
     
