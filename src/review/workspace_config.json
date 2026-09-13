@@ -1,0 +1,5 @@
+{
+  "images_dir": "/home/omaralmadanii/projects/deep-learning/data_interim/pothole-dataset-2/images",
+  "labels_dir": "/home/omaralmadanii/projects/deep-learning/data_interim/pothole-dataset-2/labels",
+  "output_dir": "/home/omaralmadanii/projects/deep-learning/reports/pothole-dataset-2/annotation_review"
+}
