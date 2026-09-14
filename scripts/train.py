@@ -21,7 +21,7 @@ os.environ['HF_HUB_DISABLE_PROGRESS_BARS'] = '1'
 def main():
     config = {
         'seed': 42,
-        'model': 'unet',
+        'model': '',
         'image_size': 512,
         'batch_size': 8,
         'num_workers': 4,
@@ -104,7 +104,7 @@ def main():
         scaler=scaler,
         patience=config['patience'],
         experiments_dir=Path('experiments'),
-        experiment_name='unet',
+        experiment_name='',
         config=config,
         train_loader=train_loader,
         val_loader=val_loader,
