@@ -7,7 +7,7 @@ def get_model(model_name: str, num_classes: int):
         return build_unet(num_classes=num_classes)
 
     elif model_name.lower() == 'segformer':
-        return build_segformer(num_classse=num_classes)
+        return build_segformer(num_classes=num_classes)
 
     elif model_name.lower() == 'deeplabv3':
         return build_deeplabv3(num_classes=num_classes)
