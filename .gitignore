@@ -3,7 +3,6 @@
 .venv/
 .vscode/
 
-experiments/
 reports/
 
 __pycache__/
